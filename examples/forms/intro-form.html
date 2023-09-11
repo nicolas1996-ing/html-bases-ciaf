@@ -1,0 +1,83 @@
+<!-- https://www.w3schools.com/tags/tag_input.asp -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <!-- forma comun -->
+      <!-- <section>
+        <div>
+          <input type="text" />
+          <input type="number" />
+        </div>
+      </section> -->
+      <!-- buenas practicas -->
+      <section>
+        <!-- form: etiqueta semantica -->
+        <!-- action: endpoint al cual apunta la data asociada al form -->
+        <form action="" method="get">
+          <!-- label: etiqueta para asociar un input -->
+          <label for="fname">First name:</label>
+          <!-- input: etiqueta para ingresar data -->
+          <!-- type: tipo de input -->
+          <!-- id: identificador del input -->
+          <!-- name: nombre del input -->
+          <input type="text" id="fname" name="fname" /><br /><br />
+
+          <label for="lname">Last name:</label>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            maxlength="10"
+          /><br /><br />
+
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" /><br /><br />
+
+          <label for="birthdate">Birthdate</label>
+          <input type="date" id="birthdate" /><br /><br />
+
+          <label for="time-work">work-time</label>
+          <input type="time" id="time-work" /><br /><br />
+
+          <label for="reset"></label>
+          <input type="reset" id="reset" /><br /><br />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+      <hr />
+      <section>
+        <form action="">
+          <!-- otros tipos de input -->
+          <label for="checkbox">checkbox</label>
+          <input type="checkbox" id="checkbox" /><br /><br />
+
+          <label for="color">color</label>
+          <input type="color" id="color" /><br /><br />
+
+          <label for="email">email</label>
+          <input type="email" id="email" /><br /><br />
+
+          <label for="file">file</label>
+          <input type="file" id="file" /><br /><br />
+
+          <label for="password">password</label>
+          <input type="password" /><br /><br />
+
+          <label for="radio">radio</label>
+          <input type="radio" id="radio" /><br /><br />
+
+          <label for="range">range</label>
+          <input type="range" id="range" /><br /><br />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

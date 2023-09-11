@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>video</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <!-- video mp4 en tu local -->
+      <section>
+        <!-- preload: pre-recarga del video al momento de renderizar -->
+        <video width="320" height="240" controls>
+          <!-- source: permite incluir el formato del video -->
+
+          <!-- puede ser un mp4 -->
+          <source src="movie.mp4" type="video/mp4" />
+          <!-- o puede ser un .ogg -->
+          <source src="movie.ogg" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+      <!-- video youtube: https://www.w3schools.com/html/html_youtube.asp -->
+      <section>
+        <iframe
+          width="420"
+          height="315"
+          src="https://www.youtube.com/embed/tgbNymZ7vqY"
+        >
+        </iframe>
+      </section>
+    </main>
+  </body>
+</html>

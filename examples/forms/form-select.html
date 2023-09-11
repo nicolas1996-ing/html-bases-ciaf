@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>title</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <!-- practica tradicional -->
+      <section>
+        <form action="">
+          <label for="courses">Choose a course:</label>
+          <!-- name: nombre del select -->
+          <!-- id:  identificador unico del select-->
+          <select name="courses" id="">
+            <!-- value: valor asociado al select -->
+            <option value="course-1">course-1</option>
+            <option value="course-2">course-1</option>
+            <option value="course-3">course-1</option>
+            <option value="course-4">course-1</option>
+          </select>
+        </form>
+      </section>
+
+      <br /><br /><br />
+      <!-- buenas practicas -->
+      <!-- este tipo de input-select permite que el usuario encuentre su busqueda y la seleccione a la vez
+            incluye una lista de referencias de acuerdo con el input del formulario -->
+      <section>
+        <form action="">
+          <label for="ice-cream-choice">Choose a flavor:</label>
+          <!-- list: ice-cream-flavors referencia al input y al id del datalist -->
+          <!-- name: nombre que se agrega a este input al momento de enviar la info al servidor -->
+          <input
+            list="ice-cream-flavors"
+            id="ice-cream-choice"
+            name="ice-cream-choice"
+          />
+
+          <datalist id="ice-cream-flavors">
+            <!-- value: valor asociado a este campo del formulario -->
+            <option value="Chocolate"></option>
+            <option value="Coconut"></option>
+            <option value="Mint"></option>
+            <option value="Strawberry"></option>
+            <option value="Vanilla"></option>
+            <option value="other"></option>
+          </datalist>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

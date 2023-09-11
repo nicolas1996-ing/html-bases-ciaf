@@ -1,0 +1,64 @@
+<!-- autocomplete, require props -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>title</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <form action="">
+          <label for="fname">First name:</label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            autocomplete="name"
+            required
+          /><br /><br />
+
+          <!-- autocomplete: el navegador toma info de sesiones pasadas -->
+          <!-- required: vuelve al input obligatorio -->
+          <label for="lname">last name:</label>
+          <input
+            type="text"
+            id="lname"
+            autocomplete="username"
+            name="lname"
+            required
+          /><br /><br />
+
+          <label for="email" autcomplete="off">email:</label>
+          <input
+            type="email"
+            id="email"
+            name="emain"
+            autcomplete="email"
+            required
+          /><br /><br />
+
+          <label for="country">pais:</label>
+          <input
+            type="text"
+            id="country"
+            name="country"
+            autocomplete="country"
+          /><br /><br />
+
+          <label for="country-code">código postal:</label>
+          <input
+            type="text"
+            id="country-code"
+            name="country-code"
+            autocomplete="postal-code"
+          /><br /><br />
+
+          <input type="submit" value="submit" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

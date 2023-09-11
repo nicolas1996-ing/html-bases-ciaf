@@ -1,0 +1,10 @@
+.img-post {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #ccc;
+  transition: all 0.5s ease;
+}
