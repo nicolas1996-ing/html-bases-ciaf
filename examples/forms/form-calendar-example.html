@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <!-- contenedor del form -->
+        <!-- http://127.0.0.1:5500/form.html?time=&day=&week=2017-W01&month=2023-05 -->
+        <form action="">
+          <label for="time">hora</label>
+          <input type="time" id="time" name="time" />
+          <br /><br />
+
+          <label for="day">dia</label>
+          <input type="date" id="day" name="day" />
+          <br /><br />
+
+          <label for="week">semana</label>
+          <input id="week" type="week" name="week" value="2017-W01" />
+          <br /><br />
+
+          <label for="month">mes</label>
+          <input
+            type="month"
+            id="month"
+            name="month"
+            min="2018-03"
+            value="2023-05"
+          />
+          <br /><br />
+
+          <input type="submit" />
+        </form>
+      </section>
+      <hr />
+      <section>
+        <form action="">
+          <label for="sheduler">calendario</label>
+          <input type="datetime-local" id="sheduler" name="sheduler" />
+          <br /><br />
+          <input type="submit" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
