@@ -1,0 +1,13 @@
+Nombramiento de clases
+    - metodologia BEM: https://en.bem.info/methodology/faq/#why-bem 
+Paleta de colores herramienta 
+    - https://cssgradient.io/
+    - https://mycolor.space/
+
+reducir el tamaño de una img 
+    - https://tinypng.com/
+
+descarga img
+    - https://www.pexels.com/es-es/
+    - https://www.freepik.es/
+    - https://www.flaticon.com/
