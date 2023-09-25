@@ -11,3 +11,48 @@ descarga img
     - https://www.pexels.com/es-es/
     - https://www.freepik.es/
     - https://www.flaticon.com/
+
+
+notas sobre estilos
+    Como se carga los estilos? 
+        - primero estilos aplicados por el navegador
+        - luego estilos personalizados
+        - luego todos los estilos marcados como !important
+    especificidad. Cuales son mas importantes, orden:  
+        - !important                    1.0.0.0.0
+        - inline styles                 0.1.0.0.0
+        - ids ( # )                     0.0.1.0.0
+        - clases ( . )                  0.0.0.1.0
+        - selectores ( div, h1, p )     0.0.0.0.1
+        https://dev.to/lupitacode/especificidad-en-css-que-es-y-como-funciona-52k6
+        https://codigofacilito.com/articulos/especificidad-css
+
+    
+    1. los estilos pueden re-escribirse ( se aplican de arriba hacia abajo )
+    2. Los !important estarán por encima de los demás estilos. Sin embargo, 
+        son mala práctica y no se deberían usar.
+    3. Los estilos embebidos en el HTML, es decir inline styles están por 
+        encima de las clases y IDs. Sin embargo, también se deberían evitar.
+    4. Los IDs están por encima de las clases. Los IDs son específicos, 
+        si se usa uno en un archivo HTML ya no se podrá repetir más 
+        en ese mismo archivo. Mientras que las clases si se pueden repetir 
+        en cualquier elemento.
+    5. Un estilo de etiqueta es el último valor que el navegador tiene
+        en cuenta antes de tomar los estilos por defecto de esa etiqueta.
+        Los estilos de etiqueta son los que menos peso tienen.
+
+        https://www.codecaptain.io/tools/css-specificity-calculator
+    
+
+Temas importantes:
+    1. modelos de cajas 
+    2. especificidad
+        2.1 algoritmo de cascada para aplicar estilos 
+    3. medidas absoluta y relativas
+    3. posicionamiento
+    4. flex
+    5. grid
+    6. media queries
+    7. responsive design
+    8. mobile first
+    9. animaciones

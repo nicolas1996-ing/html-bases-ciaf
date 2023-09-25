@@ -1,0 +1,29 @@
+/* * selector universal */
+/* eliminar los espacios en blanco que agg el navegador por defecto */
+* {
+  /* box-sizing: calculo auto de los % después de quitar los padding del eleme contenedor */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* 
+    con esta configuracion evitamos el scroll horizontal que aparece en el elemento main 
+    cuando se le agrega padding o border
+  */
+}
+
+main {
+  /* el navegador internamente hace el calculo para definir cuales serán los 
+    valores en px del width y el height */
+  width: 100vw;
+  height: 100vh;
+  border: 10px solid #000;
+  padding: 20px 35px; /*  20px arriba y abajo, 35px izquierda y derecha */
+
+  /*
+    otras formas de aplicar padding 
+        - padding: 20px; (20px arriba, abajo, izquierda y derecha)
+        - padding: 20px 35px 10px 5px; (20px arriba, 35px derecha, 10px abajo, 5px izquierda)
+        - padding: 20px 35px 10px; (20px arriba, 35px derecha e izquierda, 10px abajo)
+        - padding: 20px 35px; (20px arriba y abajo, 35px izquierda y derecha)  
+  */
+}

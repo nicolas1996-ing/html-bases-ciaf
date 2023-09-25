@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* etiqueta padre del index.html */
+html {
+  font-size: 75%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1{
+    /* hereda de html el tamaño de fuente por defecto */
+    font-size: inherit;
+}
