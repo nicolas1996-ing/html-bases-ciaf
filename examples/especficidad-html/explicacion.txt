@@ -32,6 +32,7 @@ reglas:
 - navegador algoritmo cascade que aplica los estilos de arriba hacia abajo. Reglas de cascada
 - aplicacion de estilos: de arriba hacia abajo
 - https://www.codecaptain.io/tools/css-specificity-calculator
+- los ids no son buenas practicas en css 
 
 Temas importantes:
     1. modelos de cajas 
