@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <!-- form: etiqueta semantica -->
+        <!-- action: endpoint al cual apunta la data asociada al form -->
+        <form action="" method="get">
+          <!-- label: etiqueta para asociar un input -->
+          <label for="fname">nombre: </label>
+
+          <!-- input: etiqueta para ingresar data -->
+          <!-- type: tipo de input -->
+          <!-- id: identificador del input -->
+          <!-- name: nombre del input -->
+          <input type="text" id="fname" name="fname" /><br /><br />
+
+          <label for="lname">Last name:</label>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            maxlength="10"
+            minlength="5"
+            placeholder="introduzca su apellido"
+            value="aristizabal"
+          /><br /><br />
+
+          <label for="age">Age:</label>
+          <input
+            type="number"
+            id="age"
+            name="age"
+            min="0"
+            max="100"
+          /><br /><br />
+
+          <label for="email">correo: </label>
+          <input type="email" id="email" placeholder="introduzca su email" />
+          <br /><br />
+
+          <label for="password"> contraseña</label>
+          <input type="password" />
+          <br />
+          <br />
+
+          <label for="birthdate">Birthdate</label>
+          <input type="date" id="birthdate" /><br /><br />
+
+          <label for="time-work">work-time</label>
+          <input type="time" id="time-work" /><br /><br />
+
+          <label for="reset"></label>
+          <input type="reset" id="reset" /><br /><br />
+
+          <input type="submit" value="enviar-informacion" />
+          <button type="submit">enviar-formulario</button>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

@@ -1,5 +1,6 @@
 Nombramiento de clases
     - metodologia BEM: https://en.bem.info/methodology/faq/#why-bem 
+    
 Paleta de colores herramienta 
     - https://cssgradient.io/
     - https://mycolor.space/

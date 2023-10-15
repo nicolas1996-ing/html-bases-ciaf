@@ -8,9 +8,18 @@
 html {
   font-size: 75%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(26, 49, 197);
 }
 
-h1{
-    /* hereda de html el tamaño de fuente por defecto */
-    font-size: inherit;
+h1 {
+  /* hereda el color de la fuente */
+  /* hereda de html el tamaño de fuente por defecto */
+  font-size: inherit;
+  color: brown;
 }
+
+h1 {
+  color: bisque;
+}
+
+

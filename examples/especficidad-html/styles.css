@@ -5,14 +5,14 @@
 }
 
 /* estilos aplicados al h1 de la etiqueta nav */
-h1 {
+/* h1 {
   color: rgb(49, 18, 203);
   margin-bottom: 5px;
 }
 
 #page-header-title {
   font-family: Georgia, "Times New Roman", Times, serif;
-}
+} */
 
 .page-header-title {
   font-size: 18px;
@@ -22,7 +22,7 @@ h1 {
 }
 
 /* estilos aplicados a la lista de navegación */
-#main-list-nav {
+/* #main-list-nav {
   margin-top: 8px;
   list-style: none;
   padding-left: 0px;
@@ -30,10 +30,10 @@ h1 {
   display: flex;
   justify-content: end;
   gap: 10px;
-}
+} */
 
 /* etiquetas a que esten dentro de un clase #main-list */
-#main-list-nav li a {
+/* #main-list-nav li a {
   color: black;
   cursor: pointer;
   text-decoration: none;
@@ -42,10 +42,10 @@ h1 {
 #main-list-nav li a:hover {
   color: rgb(49, 18, 203);
   text-decoration: underline;
-}
+} */
 
 /* buena practica */
-#main-list-nav li:last-child a {
+/* #main-list-nav li:last-child a {
   color: rgb(49, 18, 203);
 }
 
@@ -55,6 +55,6 @@ h1 {
 
 #main-list-nav .third-li-option-list-nav a {
   color: brown;
-}
+} */
 
 /* https://dev.to/lupitacode/especificidad-en-css-que-es-y-como-funciona-52k6 */
