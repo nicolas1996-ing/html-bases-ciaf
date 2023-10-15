@@ -1,0 +1,39 @@
+DOM: Document Object Model
+Critical Rendering Path: The sequence of steps the browser goes through to convert the HTML, CSS, and JavaScript into pixels on the screen.
+
+DOM: Document Object Model corresponde al arbol de nodos de HTML
+    - representacion del documento HTML
+    - API para acceder y manipular el DOM
+    - Estructura en forma de arbol de nodos 
+    - Es un modelo que puede ser representado en forma de arbol
+    - Es un API que permite acceder y manipular el contenido, estructura y estilo de un documento HTML
+CSSOM: CSS Object Model corresponde al arbol de estilos de CSS
+
+Web APIs modernas en el navegador 
+    - son API que ofrece el navegador para poder interactuar con el DOM, CSSOM, etc
+    - DOM + JS = una de las Web API que permite manipular el DOM
+    - permite conectar el DOM con JS 
+    - permite manipular el DOM con JS
+    - permite manipular el CSSOM con JS
+    - WEB API's
+
+https://developer.mozilla.org/en-US/docs/Web/API
+
+
+Operaciones con el DOM 
+    - leer nodos 
+        document.getElementById
+        document.getElementByTagName -> todos los elementos con el mismo nombre de etiqueta []
+        documnet.getElementByClassName -> todos los elementos con el mismo nombre de clase []
+
+        mayor flexibillidad: 
+            document.querySelector -> el primer elemento que coincida con el selector
+            document.querySelectorAll -> todos los elementos que coincidan con el selector en forma de nodeList
+                - selector: es una cadena de texto que permite seleccionar uno o varios elementos del DOM
+                - tipos de selector: id, clase, etiqueta html (input, h1, p, etc), combinaciones de estos
+                - div[class="class__name"] <- selector de atributo
+
+nodeList vs array
+    - nodeList: es un objeto que contiene una coleccion de nodos
+        - carece de metodos como map, filter, some, reduce, some etc
+    - array: es un objeto que contiene una coleccion de elementos

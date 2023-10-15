@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 64.5%; /* 1rem = 10px */
+}
+
+main {
+  width: 100vw; /* 100% del viewport width */
+  height: 100vh; /* 100% del viewport height */
+  background-color: bisque;
+}
+
+main section {
+  width: 80%;
+  min-width: 250px; /* tamaño mínimo ancho */
+  max-width: 500px; /* tamaño máximo ancho */
+  height: 80%;
+  max-height: 100px; /* tamaño máximo alto */
+  min-height: 50px;
+  margin: 0 auto;
+  background-color: aqua;
+}

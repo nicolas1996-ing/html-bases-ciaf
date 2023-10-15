@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COMBINADORES */
+
+/* 
+    1. hermano adyacente o cercano:
+            aplicar estilos a toda etiqueta p cerca de un h2
+            cercano significa antes de p hay un h2
+            ejemplo:
+                ...
+                <h2>soy un h2</h2>
+                <p>soy un parrafo</p>
+                ... se aplica el estilo 
+
+                ...
+                <h3>soy un h3</h3>
+                <p>soy un parrafo</p>
+                ... no se aplica el estilo
+*/
+.hermano__adyacente h2 + p {
+  color: red;
+}
+
+/*
+    2. hermano general 
+        va aplicar estilos a etiquetas p que esten sobre la misma
+        linea o indentacion de un h2
+*/
+.hermano__general h2 ~ p {
+  color: blue;
+}
+
+/*
+    3. hijo directo
+        va aplicar estilos a etiquetas p que sean hijos directos de un div
+*/
+div > p {
+  color: green;
+}
+
+/*
+    4. hijo descendiente
+*/
+div article p {
+  color: red;
+}
