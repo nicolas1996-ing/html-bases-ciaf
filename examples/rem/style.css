@@ -1,0 +1,21 @@
+/*
+    la ref de rem siempre sera la etiquete root
+    1rem = 16px
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+p {
+  font-size: 3rem;
+}
+
+h1{
+    font-size: 30px;
+}

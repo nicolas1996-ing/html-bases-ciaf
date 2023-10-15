@@ -1,0 +1,36 @@
+/* 
+    medidas absolutas y relativas 
+        -> px, em, rem, %, vw, vh, vmin, vmax
+        -> max-height, max-width, min-height, min-width
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: aqua;
+  width: 100%;
+  height: 500px;
+}
+
+p {
+  font-size: 70%; /* 50% del tamaño del padre, en este caso 50% de 16px*/
+  font-size: 18px; /* 18px tamaño fijo */
+}
+
+/* em: toma el tamaño directo de su componente padre más próximo */
+.medidas__relativas {
+  font-size: 10px;
+}
+
+.medidas__relativas p {
+  font-size: 2em; /* 2em = 2 * 20px = 40px */
+}
+
+.medidas__relativas div {
+  font-size: 2em; /* 2em = 2 * 40px = 80px */
+  color: blanchedalmond;
+}
