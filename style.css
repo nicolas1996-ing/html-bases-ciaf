@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+body {
+  margin: 5px;
+}
+
+main {
+  border: 1px dashed blue;
+  padding: 10px;
+}
+.main__p {
+  color: beige;
+}
