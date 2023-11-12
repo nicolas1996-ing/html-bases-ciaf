@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-main-relative {
+  width: 250px;
+  height: 100px;
+  background-color: black;
+  padding: 10px;
+  position: relative;
+  top: 30px;
+  /* bottom: 20px; */
+  /* right: 30px; */
+  left: 200px;
+}
+
+.box-child-absolute {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: brown;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  /* top: 0px; */
+  /* right: 0px; */
+}

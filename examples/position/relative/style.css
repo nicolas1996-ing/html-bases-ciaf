@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .square-relative {
+    width: 250px;
+    height: 100px;
+    background-color: black;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    /* bottom: 20px; */
+    /* right: 30px; */
+    /* left: 200px; */
+  }
+  
+  .square-relative code {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: small;
+  }
+  
+  .square-1 {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+  }
+  
+  .square-2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  }
+  
+  .square-2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+  
+  .square-3 {
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+  }
+  
