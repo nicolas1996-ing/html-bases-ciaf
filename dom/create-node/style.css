@@ -1,3 +1,7 @@
 #insert_before {
   background-color: aqua;
 }
+
+.h1_append {
+  color: red;
+}
